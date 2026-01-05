@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>صدقة جارية | محمد فاضل العطار</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: "Amiri", Tahoma;
+  background:#f4faf7;
+  color:#1b3b2f;
+  line-height:2;
+}
+
+header{
+  background:linear-gradient(to right,#1b5e20,#2e7d32);
+  color:white;
+  padding:40px 15px;
+  text-align:center;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+h2{
+  color:#1b5e20;
+  border-right:5px solid #2e7d32;
+  padding-right:10px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  margin-top:20px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.07);
+}
+
+audio{
+  width:100%;
+  margin-top:10px;
+}
+
+button{
+  background:#2e7d32;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:8px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+button:hover{
+  background:#1b5e20;
+}
+
+footer{
+  background:#1b5e20;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>صدقة جارية</h1>
+  <p>
+    هذا الموقع صدقة جارية على روح  
+    <strong>محمد فاضل العطار</strong><br>
+    رحمه الله رحمة واسعة – نسألكم الدعاء
+  </p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>آية قرآنية</h2>
+    ﴿ كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۖ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ ﴾
+  </div>
+</section>
+
+<section>
+  <h2>📻 إذاعة القرآن الكريم (بث مباشر)</h2>
+  <div class="card">
+    <audio controls>
+      <source src="https://stream.radiojar.com/8s5u5tpdtwzuv" type="audio/mpeg">
+      متصفحك لا يدعم تشغيل الصوت
+    </audio>
+    <p>إذاعة القرآن الكريم – تلاوات مستمرة</p>
+  </div>
+</section>
+
+<section>
+  <h2>📖 آيات وأدعية</h2>
+
+  <div class="card">
+    ﴿ رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ ﴾
+  </div>
+
+  <div class="card">
+    اللهم اغفر له وارحمه، وعافه واعف عنه،  
+    وأكرم نزله، ووسع مدخله، واجعل قبره روضة من رياض الجنة.
+  </div>
+
+  <div class="card">
+    ﴿ وَالَّذِينَ آمَنُوا وَاتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَانٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ ﴾
+  </div>
+
+  <div class="card">
+    اللهم آنس وحشته، ونوّر قبره، واجعل ما قدّمه في ميزان حسناته،
+    وارزقه الفردوس الأعلى بغير حساب.
+  </div>
+
+</section>
+
+<section>
+  <h2>📿 سبحة إلكترونية</h2>
+  <div class="card">
+    <p>العدّاد: <span id="count">0</span></p>
+    <button onclick="tasbeeh()">سبحان الله</button>
+    <button onclick="tasbeeh()">الحمد لله</button>
+    <button onclick="tasbeeh()">الله أكبر</button>
+    <p>الثواب مهدي إلى روح محمد فاضل العطار</p>
+  </div>
+</section>
+
+<footer>
+  اللهم اجعل هذا العمل نورًا ورحمة في قبر  
+  <strong>محمد فاضل العطار</strong>
+</footer>
+
+<script>
+let count=0;
+function tasbeeh(){
+  count++;
+  document.getElementById("count").innerText=count;
+}
+</script>
+
+</body>
+</html>
